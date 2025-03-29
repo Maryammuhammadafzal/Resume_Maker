@@ -65,7 +65,7 @@ const Home = () => {
 //   };
 
   return (
-    <div className="min-h-screen w-full flex flex-col items-center justify-center text-white p-8">
+    <div className="min-h-screen w-full flex  items-center justify-center text-white p-8">
       {/* Left Content */}
       <div className="homeContent w-[50%] h-auto p-3">
         <HomeContent />

@@ -3,7 +3,7 @@ import ExperienceForm from './ExperienceForm'
 
 const HomeForm = ({experience , setExperience}) => {
   return (
-    <div className='w-full h-auto p-3 flex justify-center items-center'>
+    <div className='w-full h-auto p-6 flex flex-col shadow-sm shadow-neutral-500 rounded-lg -inset-9 items-center inset-shadow-neutral-500 justify-center items-center'>
    <ExperienceForm
           experience={experience}
           handleChange={setExperience}
